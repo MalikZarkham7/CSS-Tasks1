@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A single Page responsive website with full animations made with Html, Css, font awesome, google fonts, Bootstrap5">
+
+    
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    
+    <!-- Css links -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- AOS (Animate On Scroll Library) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+   
+
+    <title> Website 4</title>
+  </head>
+  <body  data-bs-spy="scroll" data-bs-target=".navbar">
+
+<!-- navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white " data-aos="fade-down" data-aos-duration="1500">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./img/download.jpg" alt="ak"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Home  -->
+      <section id="home" class="bg-cover home-section" >
+        <div class="overlay"> </div>
+         <div class="container text-white text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-4 " data-aos="zoom-in" data-aos-duration="1500">Lorem ipsum dolor <br> 
+                        consectetur adipisicing elit.</h1>
+                    <p class="my-4" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                         Est odio fugiat numquam culpa similique sunt perferendis mollitia suscipit nam aperiam!</p>
+                         <a href="#" class="btn" data-aos="fade-up">Get started</a>
+                </div>
+            </div>
+         </div>
+      </section>
+   <!-- services -->
+   <section id="services" class="text-center">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 section-intro text-center" data-aos="fade-up">
+          <h1>Our Services</h1>
+          <div class="divider"></div>
+          <p>There are many variations of passages of lorem ipsum availabel,
+            but the majority have suffered <br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis in, voluptatem quia perferendis temporibus repellat.
+          </p>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-md-4" data-aos="flip-left" data-aos-duration="1500">
+            <div class="service">
+              <div class="service-img">
+                <img src="./img/service1.jpg" alt="">
+               <div class="icon">
+                <i class="fas fa-laptop"></i>  
+                <!-- many icons not working like browser, regular laptop even after copying from fonas=wesome site -->
+
+               </div>          
+              </div>
+              <h5 class="mt-5 pt- 4">Service Name</h5>
+              <p>There are many variations of passages of lorem ipsum available,Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, optio.</p>
+
+              
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="flip-left" data-aos-duration="1500">
+            <div class="service">
+              <div class="service-img">
+                <img src="./img/service2.png" alt="">
+               <div class="icon">
+                <i class="fa fa-camera"></i>  
+                <!-- many icons not working like browser, regular laptop even after copying from fonas=wesome site -->
+
+               </div>          
+              </div>
+              <h5 class="mt-5 pt- 4">Service Name</h5>
+              <p>There are many variations of passages of lorem ipsum available,Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, optio.</p>
+
+              
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="flip-left" data-aos-duration="1500">
+            <div class="service">
+              <div class="service-img">
+                <img src="./img/service3.png" alt="">
+               <div class="icon">
+                <i class="fa fa-chart-column" ></i>
+                <!-- many icons not working like browser, regular laptop even after copying from fonas=wesome site -->
+
+               </div>          
+              </div>
+              <h5 class="mt-5 pt- 4">Service Name</h5>
+              <p>There are many variations of passages of lorem ipsum available,Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, optio.</p>
+
+              
+            </div>
+          </div>
+        </div>
+
+    </div>
+   </section>
+
+    <!-- About  -->
+    <section id="about" class="bg-cover " >
+      <div class="overlay"> </div>
+       <div class="container text-white text-center">
+          <div class="row">
+            <div class="col-12 section-intro text-center" data-aos="fade-up-right" data-aos-duration="1500">
+              <h1>Watch Our Video</h1>
+              <div class="divider"></div>
+              <p>There are many variations of passages of lorem ipsum availabel,
+                but the majority have suffered <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis in, voluptatem quia perferendis temporibus repellat.
+              </p>
+              <a href="#" class="video-btn" role="button"><i class="fa fa-play"></i> </a>
+            </div>
+          </div>
+       </div>
+    </section>
+
+<!-- Features -->
+
+    <section id="features" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 section-intro text-center" data-aos="zoom-in-down" data-aos-duration="1500">
+            <h1>Our Features</h1>
+            <div class="divider"></div>
+            <p>There are many variations of passages of lorem ipsum availabel,
+              but the majority have suffered <br>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis in, voluptatem quia perferendis temporibus repellat.
+            </p>
+          </div>
+        </div>
+        <div class="row gx-4 gy-5">
+          <div class="col-md-4 feature"data-aos="zoom-out-down" data-aos-duration="1500">
+            <div class="icon"><i class="fa fa-tools"></i></div>
+            <h5 class="mt-4 mb-3">Feature Title</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae sapiente, animi ea itaque porro.</p>
+          </div>
+          <div class="col-md-4 feature"data-aos="zoom-out-down" data-aos-duration="1500">
+            <div class="icon"><i class="fa fa-broadcast-tower"></i></div>
+            <h5 class="mt-4 mb-3">Feature Title</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae sapiente, animi ea itaque porro.</p>
+          </div>
+          <div class="col-md-4 feature"data-aos="zoom-out-down" data-aos-duration="1500">
+            <div class="icon"><i class="fa fa-calendar-alt"></i></div>
+            <h5 class="mt-4 mb-3">Feature Title</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae sapiente, animi ea itaque porro.</p>
+          </div>
+          <div class="col-md-4 feature"data-aos="zoom-out-down" data-aos-duration="1500">
+            <div class="icon"><i class="fa fa-scissors"></i></div>
+            <h5 class="mt-4 mb-3">Feature Title</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae sapiente, animi ea itaque porro.</p>
+          </div>
+          <div class="col-md-4 feature"data-aos="zoom-out-down" data-aos-duration="1500">
+            <div class="icon"><i class="fa fa-radio"></i></div>
+            <h5 class="mt-4 mb-3">Feature Title</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae sapiente, animi ea itaque porro.</p>
+          </div>
+          <div class="col-md-4 feature"data-aos="zoom-out-down" data-aos-duration="1500">
+            <div class="icon"><i class="fab fa-padlet"></i></div>
+            <h5 class="mt-4 mb-3">Feature Title</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae sapiente, animi ea itaque porro.</p>
+          </div>
+        </div>         
+  
+      </div>
+      
+    </section>
+
+    <!-- Counters  -->
+    <section  class="bg-cover " style="background-image: url(./img/cover.png);" >
+      <div class="overlay"> </div>
+       <div class="container text-white text-center">
+        <div class="row gy-4" data-aos="flip-down" data-aos-duration="1500">
+          <div class="col-md-3">
+           <i class="fa fa-camera h1"></i>
+           <h1 class="mt-3 mb-2">120k</h1>
+           <p>Pictures Taken</p>
+          </div>
+            <div class="col-md-3">
+             <i class="fa fa-face-laugh h1"></i>
+             <h1 class="mt-3 mb-2">30M+</h1>
+             <p>Happy Clients</p>
+            </div>
+          
+           <div class="col-md-3">
+            <i class="fa fa-trophy h1"></i>
+            <h1 class="mt-3 mb-2">35,00</h1>
+            <p>Awards Won</p>
+           </div>
+          
+           <div class="col-md-3">
+            <i class="fa fa-paint-brush h1"></i>
+            <h1 class="mt-3 mb-2">2,500</h1>
+            <p>Themes Designed</p>
+           </div>
+          
+       </div>
+    </section>
+
+<!-- reviews -->
+
+<section id="reviews" class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 section-intro text-center">
+        <h1>Our Testimonials</h1>
+        <div class="divider"></div>
+        <p>There are many variations of passages of lorem ipsum availabel,
+          but the majority have suffered <br>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis in, voluptatem quia perferendis temporibus repellat.
+        </p>
+      </div>
+    </div>
+    <div class="row gx-4 gy-5 text-start">
+      <div class="col-md-4 "data-aos="zoom-out-up" data-aos-duration="1500">
+        <div class="review p-4">
+          <div class="person">
+            <img src="./img/user.jpg" alt="">
+            <div class="text ms-3">
+              <h6 class="mb-0">Malik Zarkham</h6>
+              <small>Amazon</small>
+            </div>
+          </div>
+          <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati quas eveniet tenetur adipisci. Quod totam quis ut natus alias!</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 "data-aos="zoom-out-up" data-aos-duration="1500">
+        <div class="review p-4">
+          <div class="person">
+            <img src="./img/user1.jpg" alt="">
+            <div class="text ms-3">
+              <h6 class="mb-0">Malik Rehan</h6>
+              <small>eBay</small>
+            </div>
+          </div>
+          <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati quas eveniet tenetur adipisci. Quod totam quis ut natus alias!</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 "data-aos="zoom-out-up" data-aos-duration="1500">
+        <div class="review p-4">
+          <div class="person">
+            <img src="./img/user2.jpg" alt="">
+            <div class="text ms-3">
+              <h6 class="mb-0">Malik</h6>
+              <small>Etsy</small>
+            </div>
+          </div>
+          <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati quas eveniet tenetur adipisci. Quod totam quis ut natus alias!</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 "data-aos="zoom-out-up" data-aos-duration="1500">
+        <div class="review p-4">
+          <div class="person">
+            <img src="./img/user3.jpg" alt="">
+            <div class="text ms-3">
+              <h6 class="mb-0">Customer 4</h6>
+              <small>Wish</small>
+            </div>
+          </div>
+          <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati quas eveniet tenetur adipisci. Quod totam quis ut natus alias!</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 "data-aos="zoom-out-up" data-aos-duration="1500">
+        <div class="review p-4">
+          <div class="person">
+            <img src="./img/jack.jpg" alt="">
+            <div class="text ms-3">
+              <h6 class="mb-0">John Wick</h6>
+              <small>Amazon</small>
+            </div>
+          </div>
+          <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati quas eveniet tenetur adipisci. Quod totam quis ut natus alias!</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 "data-aos="zoom-out-up" data-aos-duration="1500">
+        <div class="review p-4">
+          <div class="person">
+            <img src="./img/user4.jpg" alt="">
+            <div class="text ms-3">
+              <h6 class="mb-0">John Snow</h6>
+              <small>eBay</small>
+            </div>
+          </div>
+          <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati quas eveniet tenetur adipisci. Quod totam quis ut natus alias!</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+      
+    </div>         
+
+  </div>
+  
+</section>
+
+<!-- blog -->
+     
+<section id="blog" class=" bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 section-intro text-center"data-aos="fade-right"data-aos-duration="1500">
+        <h1>Our Blog Posts</h1>
+        <div class="divider"></div>
+        <p>There are many variations of passages of lorem ipsum availabel,
+          but the majority have suffered <br>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis in, voluptatem quia perferendis temporibus repellat.
+        </p>
+      </div>
+    </div>  
+    <div class="row text-start">
+      <div class="col-md-4"data-aos="flip-right"data-aos-duration="1500">
+        <img src="./img/banner3.jpg" alt="">
+        <div class="mt-4">
+          <small>Posted in <a href="#">Web Design</a>, 12 dec 2050 </small>
+          <h5 class="mt-1 mb-2"><a href="#">Website Design in 2050</a></h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quidem nesciunt inventore, temporibus est vel.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4"data-aos="flip-right"data-aos-duration="1500">
+        <img src="./img/banner2.jpg" alt="">
+        <div class="mt-4">
+          <small>Posted in <a href="#">Web Design</a>, 12 dec 2050 </small>
+          <h5 class="mt-1 mb-2"><a href="#">Website Design in 2050</a></h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quidem nesciunt inventore, temporibus est vel.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4"data-aos="flip-right"data-aos-duration="1500">
+        <img src="./img/banner5.jpg" alt="">
+        <div class="mt-4">
+          <small>Posted in <a href="#">Web Design</a>, 12 dec 2050 </small>
+          <h5 class="mt-1 mb-2"><a href="#">Website Design in 2050</a></h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quidem nesciunt inventore, temporibus est vel.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<!-- COntact -->
+     
+<section id="Contact" class=" bg-cover text-white" style="background-image: url(./img/hire.jpg);">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 section-intro text-center"data-aos="zoom-in" data-aos-duration="1500">
+        <h1>Get in Touch</h1>
+        <div class="divider"></div>
+        <p>There are many variations of passages of lorem ipsum availabel,
+          but the majority have suffered <br>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis in, voluptatem quia perferendis temporibus repellat.
+        </p>
+      </div>
+    </div> 
+    <div class="row">
+      <div class="col-md-8 mx-auto"data-aos="zoom-in" data-aos-duration="1500">
+        <form action="#" class="row g-4">
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" placeholder="Full name"> </div>
+        
+          <div class="form-group col-md-6">
+            <input type="email" class="form-control" placeholder="Email address"> 
+          </div>
+          <div class="form-group col-md-12">
+            <input type="text" class="form-control" placeholder="Subject"> 
+          </div>
+          <div class="form-group col-md-12">
+            <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="MEssage"></textarea>
+          </div>
+          <div class="text-center">
+
+            <button class="btn btn-main" type="submit">Send Message</button>
+          </div>
+          </form>
+      </div>
+    </div> 
+    
+  </div>
+  
+</section>
+
+<!-- footer -->
+<footer class="py-4">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="mb-0">Copyright © 2023-2025.Made by Malik Zarkham and Co</p>
+      </div>
+      <div class="col-md-6 text-md-end" >
+        <div>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/app.js"></script>
+
+  </body>
+</html>
